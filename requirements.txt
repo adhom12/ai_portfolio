@@ -1,1 +1,7 @@
-
+alpaca-trade-api
+python-dotenv
+pandas
+numpy
+yfinance
+requests
+sqlalchemy
