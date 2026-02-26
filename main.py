@@ -10,10 +10,10 @@ import argparse
 import logging
 from datetime import datetime
 
-from data.yfinance_provider import YFinanceProvider
-from agents.agent4_screener import screen_universe
-from agents.agent5_factors import compute_factor_scores
-from agents.agent6_ranker import rank_stocks
+from data.skeleton.yfinance_provider import YFinanceProvider
+from agents.quant.agent4_screener import screen_universe
+from agents.quant.agent5_factors import compute_factor_scores
+from agents.scoring.agent6_ranker import rank_stocks
 
 # ── Logging setup ─────────────────────────────────────────────────────────────
 logging.basicConfig(
