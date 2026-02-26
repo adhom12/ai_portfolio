@@ -6,7 +6,6 @@
 from abc import ABC, abstractmethod
 import pandas as pd
 
-
 class DataProvider(ABC):
     """
     Contract that every data provider must fulfil.
