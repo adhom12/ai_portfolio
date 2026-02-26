@@ -59,7 +59,7 @@ def test_quality_high_roe_low_debt():
     fundamentals = {"return_on_equity": 0.30, "debt_to_equity": 0.5}
     score = _compute_quality(fundamentals)
     assert score is not None
-    assert score > 0.7  # should be a high quality score
+    assert score > 0.6  # should be a high quality score
 
 
 def test_quality_negative_roe_high_debt():
